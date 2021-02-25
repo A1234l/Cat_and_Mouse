@@ -47,7 +47,6 @@ function draw() {
         jerry.velocityX = 0;
     }
     drawSprites();
-    // keyPressed();
 }
 
 
