@@ -53,7 +53,7 @@ function draw() {
 function keyPressed(){
 
   //For moving and changing animation write code here
-    if(keyCode === 37){
+    if(keyCode === LEFT_ARROW){
         tom.velocityX = -5;
         tom.changeAnimation('catRunning',tomImg2);
         jerry.changeAnimation('mouseJumping',jerryImg2);
